@@ -1,3 +1,12 @@
 .jumbotron{
     text-align: center;
 }
+#netflixImposter:hover{
+    opacity: .6;
+}
+#snowman:hover{
+    opacity: .6;
+}
+#starWarsAPI:hover{
+    opacity: .6;
+}
