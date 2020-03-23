@@ -1,3 +1,6 @@
+body{
+    background-color: lightgrey;
+}
 .jumbotron{
     text-align: center;
 }
@@ -9,4 +12,27 @@
 }
 #starWarsAPI:hover{
     opacity: .6;
+}
+.portfolio{
+    text-align: center;
+}
+.aboutMe{
+    align-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.jumbotron{
+    background: rgb(63, 63, 63);
+    color: white;
+}
+.btn{
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+.btn:hover{
+    background-color: rgb(230, 111, 0);
+}
+#elevenFiftyLink{
+    text-decoration: none;
+    color: red;
 }

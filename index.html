@@ -28,7 +28,7 @@
               <a class="nav-link" href="#aboutMe">About Me </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">References </a>
+              <a class="nav-link" href="#footer">Contact Me </a>
             </li>
           </ul>
         </div>
@@ -40,26 +40,28 @@
         <p class="lead">Full-Stack Web Developer</p>
         <hr class="my-4">
         <p>What are you looking for in a Web Developer? HTML experience? Duh. CSS knowledge? Of course. JavaScript skills? Absolutely. React fluent? Yes, please. Hi, I'm Zach! <br/>
-        While I can check all the basic boxes, I am also a great team player and enjoy helping others succeed. My professional experience has allowed me to develop an excellent aptitude
-      for sensing the morale of those around me, and also work well with different personalities. If you would like to get in touch, the button below will allow you to send me a direct message. Otherwise, you
-    can keep scrolling to view a sample of my portfolio, as well as learn more about me.</p>
+          While I can check all the basic boxes, I am also a great team player and enjoy helping others succeed. My professional experience has allowed me to develop an excellent aptitude
+          for sensing the morale of those around me, and also work well with different personalities. If you would like to get in touch, the button below will allow you to send me a direct message. Otherwise, you
+          can keep scrolling to view a sample of my portfolio, as well as learn more about me.</p>
         <a class="btn btn-primary btn-lg" href="#fs-frm" role="button">Contact Me</a>
       </div>
       </div>
-      <div class = 'container'>
+      <div class = 'container body'>
       <div class="portfolio">
         <h2 id="portfolioHeadline">My Portfolio</h2>
         <hr class="portfolio">
         <p>The following are links to my completed professional and personal projects. Enjoy!
           <br/>
           <div class = 'row portfolio-row'>
-          <a id = 'netflixImposter' href= "https://zlphillips.github.io/staticWebPage/" target="blank"><img src = '..//Portfolio/portfolioAssets/Netflix N Logo.jpg'>Netflix Imposter</a>
+            <div class = 'col-4'>
+          <a id = 'netflixImposter' href= "https://zlphillips.github.io/staticWebPage/" target="blank"><img src = '..//Portfolio/portfolioAssets/Netflix N Logo.jpg'></a>
           </div>
-          <div class = 'row portfolio-row'>
-          <a id = 'snowman' href="https://codepen.io/zlphillips/pen/QWbKjvZ" target="=blank"><img src = '..//Portfolio/portfolioAssets/snowman.JPG'; height="60px"; width="60px">Snowman</a>
+          <div class = 'col-4'>
+          <a id = 'snowman' href="https://codepen.io/zlphillips/pen/QWbKjvZ" target="=blank"><img src = '..//Portfolio/portfolioAssets/snowman.JPG'; height="60px"; width="60px"></a>
           </div>
-          <div class = 'row portfolio-row'>
-          <a id = 'starWarsAPI' href="https://zlphillips.github.io/starWarsAPI/" target="blank"><img src = '..//Portfolio/portfolioAssets/starWarsLogo.jpeg'; height='60px'; width = 'auto'> Star Wars: Guess that Starship!</a>
+          <div class = 'col-4'>
+          <a id = 'starWarsAPI' href="https://zlphillips.github.io/starWarsAPI/" target="blank"><img src = '..//Portfolio/portfolioAssets/starWarsLogo.jpeg'; height='60px'; width = 'auto'></a>
+        </div>
         </div>
         </div>
         </p>
@@ -68,28 +70,52 @@
       <hr class = 'my-4'/>
       <div class = 'aboutMe'>
         <h2 id = 'aboutMe'>About me</h2>
-          <p>Hey! Thanks for making it this far. So, I grew up in Indianapolis and have lived here most of my life. This will be a summary Of
-            my professional career(s). 5-6 sentences? Too long?
-            <br/>
-           Maybe why I decided to get into coding and what i want to do? With a little personal info at the end?
-          </p>
+          <p>Hey! Thanks for making it this far. Below you will find my current progress through the <a id = 'elevenFiftyLink' href='https://elevenfifty.org/courses/part-time/web-development/' target='_blank'>Eleven Fifty Academy</a>.</p>
+          <div class ='container body'>
+            <div class ='row aboutMe-row'>
+                <div class = 'col-4'>
+                  <img src = '..//Portfolio/portfolioAssets/goldBadge.jpeg' height='200px' width='auto'>
+                    <h5>March 28th, 2020</h5>
+                </div>
+                <div class ="col-4">
+                  <img src = '..//Portfolio/portfolioAssets/blueBadge.jpeg' height='200px' width='auto'>
+                    <h5>TBD</h5>
+                </div>
+                <div class ='col-4'>
+                  <img src = '..//Portfolio/portfolioAssets/redBadge.jpeg' height='200px' width='auto'>
+                    <h5>TBD</h5>
+                </div>
+                </div>
+            </div>
+          </div>
       </div>
       <div id = 'footer'>
-      <div class = 'contactForm'>
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/zacharylphillips@gmail.com" method="post">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">Full Name</label>
-              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-              <label for="email-address">Email Address</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+      <div class = 'container'>
+        <div class = 'row footer-row'>
+          <div class ='col-4 professional references'>
+            <h6 id='professionalProfilesLabel'>Professional Profiles</h6>
+            <a href = 'https://www.linkedin.com/in/zacharylphillips/' target ='_blank'> <img id ='linkedIn' src = '..//Portfolio/portfolioAssets/linkedIn.jpeg' height='65px'></a>
+            <a href='https://github.com/zlphillips' target='_blank'><img id='gitHub' src='..//Portfolio/portfolioAssets/gitHub.jpeg' height="60" width="60"></a>
+          </div>
+          <div class = 'col-4 resume'>
+            <h6 id='resumeLabel'>Resumé</h6>
+            <a href = '..//Portfolio/portfolioAssets/Zach January 2020 Resume.pdf' target='_blank'><img id='resumeThumb' src='..//Portfolio/portfolioAssets/resumeThumb.JPG' height="200" width="auto"></a>
+          </div>
+          <div class = 'col-4 contactForm'>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/zacharylphillips@gmail.com" method="post">
+              <h6>Contact Me</h6>
+              <fieldset id="fs-frm-inputs">
+              <input type="text" name="name" id="full-name" placeholder="Full Name" required="">
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+              <textarea rows="5" name="message" id="message" placeholder="How can I help you?" required=""></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>
-            <input type="submit" value="Submit">
-          </form>
+            <input id='submitButton' type="submit" value="Send">
+            </form>
+          </div>
           </div>
         </div>
+      </div>
       </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -1,0 +1,44 @@
+#footer{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+    background-color: white;
+}
+.contactForm{
+    text-align: center;
+}
+textarea{
+    height: 100px;
+    width: 300px;
+}
+#full-name{
+    width: 300px;
+}
+#email-address{
+    width: 300px;
+}
+#submitButton{
+    background-color: orangered;
+    color: white;
+}
+h6{
+    text-align: center;
+}
+.resume{
+    text-align: center;
+}
+#resumeThumb:hover{
+    opacity: .7;
+}
+#professionalProfilesLabel{
+    border-bottom: 1px solid gray;
+}
+.professional-references{
+    vertical-align: center;
+}
+#linkedIn:hover{
+    opacity: .7;
+}
+#gitHub:hover{
+    opacity: .7;
+}
