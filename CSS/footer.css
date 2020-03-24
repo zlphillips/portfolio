@@ -33,9 +33,6 @@ h6{
 #professionalProfilesLabel{
     border-bottom: 1px solid gray;
 }
-.professional-references{
-    vertical-align: center;
-}
 #linkedIn:hover{
     opacity: .7;
 }
