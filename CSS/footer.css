@@ -5,7 +5,11 @@
     background-color: white;
 }
 .contactForm{
+    background: #000099;
     text-align: center;
+}
+#contactTitle{
+    color: #ffffff;
 }
 textarea{
     height: 100px;
@@ -13,9 +17,20 @@ textarea{
 }
 #full-name{
     width: 300px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    text-align: center;
 }
 #email-address{
     width: 300px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+#message{
+    border-radius: 2px;
+    text-align: center;
+
 }
 #submitButton{
     background-color: orangered;
@@ -31,11 +46,18 @@ h6{
     opacity: .7;
 }
 #professionalProfilesLabel{
-    border-bottom: 1px solid gray;
+    text-decoration: underline;
+}
+.professional-references{
+    text-align: center;
 }
 #linkedIn:hover{
     opacity: .7;
 }
 #gitHub:hover{
     opacity: .7;
+}
+#submitButton{
+    outline: none;
+    border: none;
 }
