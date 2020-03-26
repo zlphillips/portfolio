@@ -1,4 +1,6 @@
 .header{
+    background-color: #04061d;
     position: fixed;
     z-index: 1;
+    color: white;
 }

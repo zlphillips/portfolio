@@ -1,8 +1,11 @@
 body{
-    background-color: lightgrey;
+    background-color: #04061d;
+
 }
 .jumbotron{
     text-align: center;
+    background-color: #04061d;
+    color: white;
 }
 #netflixImposter:hover{
     opacity: .6;
@@ -15,14 +18,12 @@ body{
 }
 .portfolio{
     text-align: center;
+    color: white;
 }
 .aboutMe{
     align-content: center;
     text-align: center;
     padding-bottom: 20px;
-}
-.jumbotron{
-    background: rgb(63, 63, 63);
     color: white;
 }
 .btn{
@@ -30,7 +31,9 @@ body{
     border: 1px solid orangered;
 }
 .btn:hover{
-    background-color: rgb(230, 111, 0);
+    border: 1px solid orangered;
+    background-color: orangered;
+    opacity: .6;
 }
 #elevenFiftyLink{
     text-decoration: none;
