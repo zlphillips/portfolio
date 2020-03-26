@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zach Phillips's Portfolio</title>
+    <title>Zach Phillips</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/index.css"/>
     <link rel="shortcut icon" href="./portfolioAssets/favicon.ico">
@@ -12,23 +12,23 @@
 <body>
     <div class = 'header'>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">ZP</a>
+        <a class="navbar-brand" id="nav1" href="#">ZP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Introduction <span class="sr-only">(current)</span></a>
+              <a class="nav-link" id="nav2" href="#">Introduction <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolioHeadline">Portfolio </a>
+              <a class="nav-link" id="nav3" href="#portfolioHeadline">Portfolio </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutMe">About Me </a>
+              <a class="nav-link" id="nav4" href="#aboutMe">About Me </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact Me </a>
+              <a class="nav-link" id="nav5" href="#footer">Contact Me </a>
             </li>
           </ul>
         </div>
@@ -38,7 +38,7 @@
       <div class="jumbotron">
         <h1 class="display-4">Zach Phillips</h1>
         <p class="lead">Full-Stack Web Developer</p>
-        <hr class="my-4" color="white">
+        <hr class="my-4" color="orangered"> 
         <p>What are you looking for in a Web Developer? HTML experience? Duh. CSS knowledge? Of course. JavaScript skills? Absolutely. React fluent? Yes, please. Hi, I'm Zach! <br/>
           While I can check all the basic boxes, I am also a great team player and enjoy helping others succeed. My professional experience has allowed me to develop an excellent aptitude
           for sensing the morale of those around me, and also work well with different personalities. If you would like to get in touch, the button below will allow you to send me a direct message. Otherwise, you
@@ -50,7 +50,7 @@
       <div class="portfolio">
         <h2 id="portfolioHeadline">My Portfolio</h2>
         <hr class="portfolio">
-        <p>The following are links to my completed professional and personal projects. Enjoy!
+        <p>The thumbnails below are links to my completed professional and personal projects. Enjoy!
           <br/>
           <div class = 'row portfolio-row'>
             <div class = 'col-4'>
@@ -67,21 +67,24 @@
         </p>
       </div>
       </div>
-      <hr class = 'my-4'/>
       <div class = 'aboutMe'>
         <h2 id = 'aboutMe'>About me</h2>
-          <p>Hey! Thanks for making it this far. Below you will find my current progress through the <a id = 'elevenFiftyLink' href='https://elevenfifty.org/courses/part-time/web-development/' target='_blank'>Eleven Fifty Academy</a>.</p>
-          <div class ='container body'>
+        <div class ='container body'>
+          <p>Hey! Thanks for making it this far. Below you will find my current progress through the <a id = 'elevenFiftyLink' href='https://elevenfifty.org/courses/part-time/web-development/' target='_blank'>Eleven Fifty Academy</a>. I am currently
+            working as a Client Success Manager, and seeking employment as a Web Developer. You can find my professional online profiles, as well as a copy of my resumé, a little further down the page. In regards to me personally, I live in Carmel, IN with two canines, two felines and another
+            human. I enjoy camping several times a year as well as traveling to new places when I can. </p>
             <div class ='row aboutMe-row'>
-                <div class = 'col-4'>
+                <div class = 'col'>
                   <img src = './portfolioAssets/goldBadge.jpeg' height='200px' width='auto'>
                     <h5>March 28th, 2020</h5>
                 </div>
-                <div class ="col-4">
+            </div>
+            <div class ='row aboutMe-row'>
+                <div class ="col-6">
                   <img src = './portfolioAssets/blueBadge.jpeg' height='200px' width='auto'>
                     <h5>TBD</h5>
                 </div>
-                <div class ='col-4'>
+                <div class ='col-6'>
                   <img src = './portfolioAssets/redBadge.jpeg' height='200px' width='auto'>
                     <h5>TBD</h5>
                 </div>
