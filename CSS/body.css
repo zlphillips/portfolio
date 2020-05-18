@@ -7,6 +7,15 @@ body{
     background-color: #04061d;
     color: white;
 }
+#headline{
+    animation-name: flashyName;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes flashyName{
+    from {color: orangered;}
+    to {color: white;}
+}
 #netflixImposter:hover{
     opacity: .6;
 }
